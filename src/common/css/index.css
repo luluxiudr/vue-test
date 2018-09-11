@@ -1,0 +1,172 @@
+html,
+body,
+div,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dt,
+dd,
+ol,
+form,
+input,
+textarea,
+th,
+td,
+select {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	min-height: 100%;
+}
+
+body {
+	font-family: "Microsoft YaHei";
+	font-size: 14px;
+	color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+img {
+	border: none;
+	vertical-align: middle;
+}
+
+a {
+	text-decoration: none;
+	color: #232323;
+}
+
+table {
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+input,
+textarea {
+	outline: none;
+	border: none;
+}
+
+textarea {
+	resize: none;
+	overflow: auto;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.clearfix:after {
+	content: ".";
+	width: 0;
+	height: 0;
+	visibility: hidden;
+	display: block;
+	clear: both;
+	overflow: hidden;
+}
+
+.fl {
+	float: left
+}
+
+.fr {
+	float: right
+}
+
+.tl {
+	text-align: left;
+}
+
+.tc {
+	text-align: center
+}
+
+.tr {
+	text-align: right;
+}
+
+.ellipse {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.inline {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+
+a {
+	text-decoration: none;
+}
+
+.Special {
+	display: inline-block;
+	float: left;
+}
+
+.look_all {
+	display: inline-block;
+	float: right;
+}
+
+.bigdiv {
+	display: inline-block;
+	width: 100%;
+}
+
+.content_left {
+	width: 30%;
+	float: left;
+	height: 108px;
+}
+
+.content_right {
+	padding-left: 10%;
+	width: 70%;
+	height: 108px;
+	float: right;
+	position: relative;
+	color: #232323;
+}
+
+.bottom_icon {
+	position: absolute;
+	bottom: 0px;
+}
+
+.contentDiv {
+	float: left;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-bottom: 1px solid #232323
+}
